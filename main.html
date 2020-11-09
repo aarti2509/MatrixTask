@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:cornflowerblue;
+            
+        }
+       h1{
+            text-align: center;
+            margin-top: 100px;
+        }
+
+      .row{
+          display: flex;
+          justify-content: center;
+      }
+
+      button{
+          margin: 50px;
+      }
+      button:hover{
+          background-color: crimson;
+          color: white;
+      }
+      </style>
+</head>
+<body>
+       
+    <h1 id="h1">Matrix Multiplication</h1>
+
+    <div class="row">
+        <button onclick="two_d_matrix()"><h2>2D Matrix</h2></button>
+        <button onclick="three_d_matrix()"><h2>3D Matrix</h2></button>
+         <button onclick="four_d_matrix()"><h2>4D Matrix</h2></button>
+    
+    </div>
+    
+    <script src="two_d_matrix.js"></script>
+    <script src="three_d_matrix.js"></script>
+    <script src="four_d_matrix.js"></script>
+    
+  </body>
+</html>
